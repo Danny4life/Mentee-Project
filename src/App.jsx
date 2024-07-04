@@ -1,8 +1,10 @@
+import NavBar from "./components/navbar";
+
 function App() {
   return (
-    <>
-      <h1 className="text-red-500">Hello Live Project</h1>
-    </>
+    <div>
+      <NavBar />
+    </div>
   );
 }
 
