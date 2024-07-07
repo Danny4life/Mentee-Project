@@ -2,7 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { LiaCommentDots } from "react-icons/lia";
-import Image from '../assets/profile.jpeg'
+import Image from '../assets/profile.jpeg';
+import { BsChatRightDots } from "react-icons/bs";
 
 const NavBar = () => {
   return (
@@ -19,7 +20,7 @@ const NavBar = () => {
 
             <div className='flex items-center pr-6'>
                 <div className='flex items-center py-4 pr-14 gap-6 '>
-                    <LiaCommentDots className='size-6 ' />
+                    <BsChatRightDots  className='size-6'/>
                     <FontAwesomeIcon icon={faBell} className='size-6' />
                     <img src={Image} alt="" className='size-8 rounded-full'/>
                 </div>
