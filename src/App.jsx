@@ -1,7 +1,11 @@
-import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-function App() {
-  return <main className=""></main>;
+import "./index.css";
+import "./App.css";
+import Routers from "./routes";
+
+export default function App() {
+  return (
+    <RouterProvider router={Routers} fallbackElement={<p>Loading...</p>} />
+  );
 }
-
-export default App;
