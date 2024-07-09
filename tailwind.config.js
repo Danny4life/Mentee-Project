@@ -12,10 +12,14 @@ export default {
         'Success': '#D1FADF',
         'blue-100': '#D1E9FF',
         'grey-3': '#828282',
+        'black-1': '#101828',
+        
+
       },
 
       fontFamily: {
         logo : ["Hanalei Fill"],
+        inter: ['Inter', 'sans-serif'],
       }
     },
   },
