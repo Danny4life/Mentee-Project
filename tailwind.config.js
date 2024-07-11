@@ -6,6 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+
+      maxWidth: {
+        '8xl': '547px',
+      },
+      fontSize: {
+        'xm': '0.6rem',
+        sm: '0.8rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '2xl': '1.563rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
+      },
       colors: {
         'blue-1': '#2F80ED',
         'blue-2': '#2B669F',

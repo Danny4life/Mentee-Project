@@ -1,6 +1,6 @@
 import Search from "./components/Search";
 import NavBar from "./components/navbar";
-import Hero from "./components/Hero";
+import Body from "./components/Body";
 import FindHeader from "./components/findJob/findHeader";
 import FindBody from "./components/findJob/findBody";
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       <NavBar />
       <Search />
-      <Hero />
+      <Body />
       <FindHeader />
       <FindBody />
     </div>
