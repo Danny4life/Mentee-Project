@@ -1,13 +1,13 @@
 import Search from "./components/Search";
 import NavBar from "./components/navbar";
-import Hero from "./components/Hero";
+import Body from "./components/Body";
 
 function App() {
   return (
     <div>
       <NavBar />
       <Search />
-      <Hero />
+      <Body />
     </div>
   );
 }
