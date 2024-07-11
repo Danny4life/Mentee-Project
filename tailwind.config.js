@@ -22,11 +22,19 @@ export default {
         'black-0': '#000000',
         'orange-1': '#FEC84B',
         'orange-3': '#FEF0C7',
+        customGray: "#828282",
+        customBlue: "#2F80ED",
+        customBabyBlue: "#56CCF2",
+        customGreen: "#D1FADF",
+        customText: "#2F80ED",
+        customGreenText: "#32D583",
 
       },
 
       fontFamily: {
         logo : ["Hanalei Fill"],
+        inter: ["Inter", "sans-serif"],
+        hanalei: ["Hanalei Fill", "cursive"],
       },
 
       spacing: {
@@ -38,7 +46,7 @@ export default {
       boxShadow: {
         '3xl': '0 6px 16px 0px #00000029',
       },
-
+      
     },
   },
   plugins: [],
