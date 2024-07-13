@@ -32,6 +32,7 @@ export default {
         'bright': '#D31F61',
         'blue-100': '#D1E9FF',
         'grey-3': '#828282',
+<<<<<<< HEAD
         'grey-4': '#F8F9FD',
         'black-0': '#000000',
         'orange-1': '#FEC84B',
@@ -42,11 +43,16 @@ export default {
         customGreen: "#D1FADF",
         customText: "#2F80ED",
         customGreenText: "#32D583",
+=======
+        'black-1': '#101828',
+        
+>>>>>>> kingsley
 
       },
 
       fontFamily: {
         logo : ["Hanalei Fill"],
+<<<<<<< HEAD
         inter: ["Inter", "sans-serif"],
         hanalei: ["Hanalei Fill", "cursive"],
       },
@@ -61,6 +67,10 @@ export default {
         '3xl': '0 6px 16px 0px #00000029',
       },
       
+=======
+        inter: ['Inter', 'sans-serif'],
+      }
+>>>>>>> kingsley
     },
   },
   plugins: [],
