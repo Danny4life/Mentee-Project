@@ -5,6 +5,9 @@ import Forget from "./Pages/ForgottenPassword.jsx"
 import ModalOne from "./Pages/ModalPageOne.jsx"
 import ModalTwo from "./Pages/ModalPagetwo.jsx"
 import "./index.css";
+<<<<<<< HEAD
+import Login from "./component/login.jsx";
+=======
 import {
   createBrowserRouter,
   RouterProvider,
@@ -30,6 +33,7 @@ const router = createBrowserRouter([
 ]);
 
 
+>>>>>>> 46c95e312480a8f3a29b93bb3a22235c706db3a0
 const root = ReactDOM.createRoot(document.getElementById("app"));
 root.render(
   <React.StrictMode>

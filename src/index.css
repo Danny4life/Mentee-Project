@@ -1,16 +1,22 @@
+<<<<<<< HEAD
+=======
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Inter:wght@100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Hanalei+Fill&display=swap");
 
+>>>>>>> 46c95e312480a8f3a29b93bb3a22235c706db3a0
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
 @layer base {
   html {
     font-family: "Inter", sans-serif;
   }
 }
+>>>>>>> 46c95e312480a8f3a29b93bb3a22235c706db3a0
