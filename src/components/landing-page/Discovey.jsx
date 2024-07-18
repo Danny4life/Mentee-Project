@@ -6,13 +6,13 @@ import { FaArrowRight } from "react-icons/fa";
 const Discovey = () => {
   return (
     <div className="">
-      <div className="flex justify-between items-center gap-x-8 w-[90%] mx-auto py-20">
-        <div className="w-1/2">
+      <div className="grid md:flex md:justify-between items-center gap-y-5 lg:gap-y-0 gap-x-8 w-[90%] mx-auto py-10 md:py-20">
+        <div className="md:w-1/2">
           <img src={discovery} alt="image of communities of users" />
         </div>
 
-        <div className="w-1/2 grid gap-y-8">
-          <h1 className="text-blue-1 font-extrabold text-6xl">
+        <div className="md:w-1/2 grid gap-y-4 md:gap-y-8">
+          <h1 className="text-blue-1 font-extrabold text-4xl md:text-6xl">
             Discover Endless Possibilities
           </h1>
           <p className="text-black-2 text-lg">

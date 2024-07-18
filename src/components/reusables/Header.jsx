@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "./Logo";
 import NavLink from "./NavLink";
 import Button from "./Button";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <header className="w-full flex justify-between items-center p-6">
+    <header className="w-full flex justify-between items-center py-2 px-3 md:p-6">
       <Logo />
-      <nav className="flex gap-x-5 .roboto-regular">
+
+      <button
+        className="md:hidden text-black-1"
+        onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+      >
+        {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+      </button>
+
+      <nav
+        className={`flex-col md:flex-row md:flex gap-x-5 items-center ${
+          isMobileMenuOpen ? "flex" : "hidden"
+        } md:block`}
+      >
         <NavLink
           to="/products"
           activeClassName="text-blue-1 font-extrabold"
@@ -39,7 +53,11 @@ const Header = () => {
         </NavLink>
       </nav>
 
-      <div className="flex gap-x-6 items-center">
+      <div
+        className={`flex-col md:flex-row md:flex gap-x-6 items-center ${
+          isMobileMenuOpen ? "flex" : "hidden"
+        } md:block`}
+      >
         <Button variant="secondary" size="medium">
           Login
         </Button>
