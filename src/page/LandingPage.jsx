@@ -3,7 +3,7 @@ import Banner from "../components/landing-page/Banner";
 import Features from "../components/landing-page/Features";
 import Discovey from "../components/landing-page/Discovey";
 import ChooseUs from "../components/landing-page/ChooseUs";
-import Footer from "../components/reusables/Footer";
+import CTA from "../components/landing-page/CTA";
 
 const LandingPage = () => {
   return (
@@ -12,6 +12,7 @@ const LandingPage = () => {
       <Features />
       <Discovey />
       <ChooseUs />
+      <CTA />
     </div>
   );
 };

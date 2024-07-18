@@ -4,10 +4,10 @@ import icons from "../../assets/landingPage/Icons.svg";
 
 const Banner = () => {
   return (
-    <div className="relative w-full py-20 border-y border-blue-3">
-      <div className="flex justify-between items-center w-[90%] mx-auto">
-        <div className="space-y-4 w-[45%]">
-          <h1 className="text-6xl font-extrabold .roboto-regular text-blue-1">
+    <div className="relative w-full py-10 lg:py-20 border-y border-blue-3">
+      <div className="md:flex md:justify-between items-center w-[90%] mx-auto space-y-5 lg:space-y-0">
+        <div className="space-y-4 md:w-[45%]">
+          <h1 className="text-4xl md:text-6xl font-extrabold .roboto-regular text-blue-1">
             Your Gateway to Career Success!
           </h1>
           <p className="text-black-2 text-lg">
@@ -18,7 +18,7 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="w-[45%]">
+        <div className="md:w-[45%]">
           <img
             src={image}
             alt="image of a desktop computer"
