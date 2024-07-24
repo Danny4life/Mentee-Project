@@ -14,6 +14,7 @@ const ResetPassword = lazy(() =>
 );
 const FindJobPage = lazy(() => import("../Pages/FindJobPage"));
 const CompanyHomePage = lazy(() => import("../Pages/Company/HomePage"));
+const PostNewJob = lazy(() => import("../Pages/PostNewJob"));
 
 const Routers = createBrowserRouter([
   {
@@ -81,6 +82,14 @@ const Routers = createBrowserRouter([
     element: (
       <Suspense fallback={<div>Loading...</div>}>
         <FindJobPage />
+      </Suspense>
+    ),
+  },
+  {
+    path: "post-job",
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <PostNewJob />
       </Suspense>
     ),
   },
