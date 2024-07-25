@@ -52,6 +52,7 @@ export default {
         "blue-100": "#D1E9FF",
         "grey-3": "#828282",
         "grey-4": "#F8F9FD",
+        "grey-5": "#5F6368",
         "black-0": "#000000",
         "orange-1": "#FEC84B",
         "orange-3": "#FEF0C7",
