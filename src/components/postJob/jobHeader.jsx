@@ -13,14 +13,14 @@ const jobHeader = () => {
             </div>
 
             <ul className='flex  items-center gap-6 pl-16'>
-                <li className='hidden  font-400 text-base  md:block lg:block' >Find Candidates</li>
-                <li className='hidden px-3 font-400 md:block lg:block'>Profile</li>
+                <li className='hidden  font-400 text-base cursor-pointer  md:block lg:block' >Find Candidates</li>
+                <li className='hidden px-3 font-400 cursor-pointer md:block lg:block'>Profile</li>
             </ul>
 
             <div className='flex items-center  gap-6 md:pr-6 '>
-                <BsChatRightDots  className='size-6'/>
-                <FontAwesomeIcon icon={faBell} className='size-6' />
-                <img src={Dp} alt="" className='w-10 h-10'  />
+                <BsChatRightDots  className='size-6 cursor-pointer'/>
+                <FontAwesomeIcon icon={faBell} className='size-6 cursor-pointer' />
+                <img src={Dp} alt="" className='w-10 h-10 cursor-pointer'  />
             </div>
         
         </div>
