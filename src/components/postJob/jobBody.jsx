@@ -4,14 +4,14 @@ import React from 'react';
 const jobBody = () => {
   return (
     <div className='box-border'>
-        <div className="container mx-auto mt-8 w-full max-w-96 bg-white px-3">
+        <div className="container mx-auto mt-8 w-full max-w-96 bg-white px-3 md:max-w-[500px]">
           <div className="w-full relative">
             <div>
-              <div className='relative w-[16rem]  mx-auto'>
-                <h1 className='items-center overflow-hidden text-blue-1 '>...........................................................................</h1>
+              <div className='relative w-[16rem]  mx-auto md:w-[404px] '>
+                <h1 className='items-center overflow-hidden text-blue-1 '>.........................................................................................................................................................</h1>
               </div>
 
-              <div className='absolute flex justify-between w-[16rem] top-0 right-[52px] items-center mt-1 z-10'>
+              <div className='absolute flex justify-between w-[16rem] top-0 right-[52px] items-center mt-1 z-10 md:w-[404px] md:right-[37px]'>
                 <p className='bg-blue-1 text-white rounded-[50%] w-6 h-6 text-center font-inter text-base'>1</p>
                 <p className='bg-white rounded-[50%] w-6 h-6 text-center border font-inter text-base text-grey-5'>2</p>
                 <p className='bg-white rounded-[50%] w-6 h-6 text-center font-inter border text-base text-grey-5'>3</p>
