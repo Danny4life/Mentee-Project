@@ -1,4 +1,5 @@
 import { lazy, Suspense } from "react";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import GeneralLayout from "../components/layouts/GeneralLayout";
 import CompanyLayout from "../components/layouts/CompanyLayout";
@@ -14,6 +15,7 @@ const ResetPassword = lazy(() =>
 );
 const FindJobPage = lazy(() => import("../Pages/FindJobPage"));
 const CompanyHomePage = lazy(() => import("../Pages/Company/HomePage"));
+const ProfilePage = lazy(() => import("../Pages/ProfilePage"));
 
 const Routers = createBrowserRouter([
   {
@@ -79,8 +81,16 @@ const Routers = createBrowserRouter([
   {
     path: "find-jobs",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className="text-center">Loading...</div>}>
         <FindJobPage />
+      </Suspense>
+    ),
+  },
+  {
+    path: "profile",
+    element: (
+      <Suspense fallback={<div className="text-center">Loading...</div>}>
+        <ProfilePage />
       </Suspense>
     ),
   },

@@ -45,7 +45,7 @@ function Signup() {
                 placeholder=""
                 type="text"
               />
-              <div className="label text-blue-600">Laset Name</div>
+              <div className="label text-blue-600">Last Name</div>
             </div>
             <div className="w-full relative input-container">
               <input
