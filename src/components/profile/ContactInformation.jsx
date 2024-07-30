@@ -34,7 +34,7 @@ const ContactInformation = () => {
             />
             <div className="label text-blue-600">First Name</div>
             {errors.firstName && (
-              <p className="text-red-600">{errors.firstName.message}</p>
+              <p className="text-red-600 text-sm">{errors.firstName.message}</p>
             )}
           </div>
 
@@ -54,7 +54,7 @@ const ContactInformation = () => {
             />
             <div className="label text-blue-600">Last Name</div>
             {errors.lastName && (
-              <p className="text-red-600">{errors.lastName.message}</p>
+              <p className="text-red-600 text-sm">{errors.lastName.message}</p>
             )}
           </div>
 
@@ -78,7 +78,9 @@ const ContactInformation = () => {
             />
             <div className="label text-blue-600">Phone number</div>
             {errors.phoneNumber && (
-              <p className="text-red-600">{errors.phoneNumber.message}</p>
+              <p className="text-red-600 text-sm">
+                {errors.phoneNumber.message}
+              </p>
             )}
           </div>
 
@@ -102,7 +104,7 @@ const ContactInformation = () => {
             />
             <div className="label text-blue-600">Email Address</div>
             {errors.email && (
-              <p className="text-red-600">{errors.email.message}</p>
+              <p className="text-red-600 text-sm">{errors.email.message}</p>
             )}
           </div>
         </div>

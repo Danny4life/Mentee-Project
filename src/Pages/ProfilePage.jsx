@@ -7,9 +7,9 @@ function ProfilePage() {
   return (
     <GeneralLayout>
       <div className="w-[90%] mx-auto">
-        <div className="w-5/6 ml-auto my-5 space-y-10">
+        <div className="lg:w-5/6 lg:ml-auto my-5 space-y-10">
           {/* TOP HEADER */}
-          <div className="flex justify-between items-center">
+          <div className="lg:flex lg:justify-between items-center space-y-3 lg:space-y-0">
             <h2 className="font-medium text-3xl">Ayomide Fatogun</h2>
             <div className="flex items-end gap-x-4">
               <img

@@ -23,8 +23,8 @@ const UserProfileSettings = () => {
     {
       title: "Personal Information",
       content: (
-        <div className="flex justify-between w-full">
-          <div className="sub-tabs grid w-[30%] space-y-3 h-fit">
+        <div className="lg:flex lg:justify-between w-full">
+          <div className="sub-tabs grid lg:w-[30%] space-y-3 h-fit">
             <button
               className={`sub-tab ${
                 personalInfoSubTab === 0 ? "active" : ""
@@ -53,7 +53,7 @@ const UserProfileSettings = () => {
               </span>
             </button>
           </div>
-          <div className="sub-tab-content w-[65%]">
+          <div className="sub-tab-content lg:w-[65%] mt-7 lg:mt-0">
             {personalInfoSubTab === 0 ? (
               <ContactInformation />
             ) : (
