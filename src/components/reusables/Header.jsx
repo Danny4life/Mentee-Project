@@ -59,7 +59,7 @@ const Header = () => {
         } md:block`}
       >
         <Button variant="secondary" size="medium">
-          Login
+          <NavLink to="/login">Login</NavLink>
         </Button>
         <Button
           variant="primary"
@@ -67,7 +67,7 @@ const Header = () => {
           icon={FaArrowRight}
           iconPosition="right"
         >
-          Sign up Free
+          <NavLink to="/register">Sign up Free</NavLink>
         </Button>
       </div>
     </header>
