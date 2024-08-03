@@ -9,12 +9,15 @@ const ForgotPassword = lazy(() =>
 );
 const Login = lazy(() => import("../Pages/Authentication/LoginPage"));
 const Signup = lazy(() => import("../Pages/Authentication/SignupPage"));
+const EmployerLogin = lazy(() => import("../Pages/Authentication/EmployerLoginPage"));
+const EmployerSignup = lazy(() => import("../Pages/Authentication/EmployerSignupPage"));
 const ResetPassword = lazy(() =>
   import("../Pages/Authentication/ResetPasswordPage")
 );
 const FindJobPage = lazy(() => import("../Pages/FindJobPage"));
 const CompanyHomePage = lazy(() => import("../Pages/Company/HomePage"));
 const PostNewJob = lazy(() => import("../Pages/PostNewJob"));
+const Review = lazy(() => import("../Pages/Company/ReviewApplication"));
 
 const Routers = createBrowserRouter([
   {
@@ -62,6 +65,22 @@ const Routers = createBrowserRouter([
     ),
   },
   {
+ path: "employer-login",
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <EmployerLogin />
+      </Suspense>
+    ),
+  },
+  {
+    path: "employer-signup",
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <EmployerSignup />
+      </Suspense>
+    ),
+  },
+  {
     path: "forgot-password",
     element: (
       <Suspense fallback={<div>Loading...</div>}>
@@ -90,6 +109,14 @@ const Routers = createBrowserRouter([
     element: (
       <Suspense fallback={<div>Loading...</div>}>
         <PostNewJob />
+      </Suspense>
+    ),
+  },
+  {
+path: "review",
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <Review />
       </Suspense>
     ),
   },

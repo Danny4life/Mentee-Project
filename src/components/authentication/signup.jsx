@@ -1,5 +1,5 @@
 import { FaEyeSlash } from "react-icons/fa";
-import { FcGoogle } from "react-icons/fc";
+import LoginSignupHeading from "./loginSignupHeading";
 import "./loginSignup.css";
 import NavLink from "../reusables/NavLink";
 function Signup() {
@@ -7,25 +7,10 @@ function Signup() {
     e.preventDefault();
   };
   return (
-    <div className=" form-container h-[100vh] flex flex-col items-center justify-center text-black bg-background bg-cover bg-center">
-      <div className=" px-6 my-4 h-[600px]  lg:w-[400px] sm: w-[270px] bg-white rounded-lg ">
+    <div className=" form-container h-[100%] flex flex-col items-center justify-center text-black bg-background bg-cover bg-center">
+      <div className=" px-6 my-4 h-[620px]  lg:w-[400px] sm: w-[270px] bg-white rounded-lg ">
         <div>
-          <h2 className="hanalei-fill-regular lg:text-4xl font-bold pb-2 py-2 text-center text-blue-600  sm:text-2xl ">
-            SWIFTSELECT
-          </h2>
-          <h3 className="welcome-msg text-center my-2">
-            Create a new account{" "}
-          </h3>
-          <button className="google-btn w-full my-2 pb-1 py-1 rounded-lg relative">
-            <FcGoogle className=" absolute lg:bottom-2 lg:left-20 md:bottom-2 md:left-5 border-white border-2 sm:bottom-2 sm:left-5 " />
-            Sign in with Goggle
-          </button>
-
-          <div className="relative flex py-1 items-center">
-            <div className="flex-grow border-t border-gray-400"></div>
-            <span className="flex-shrink mx-4 text-gray-400">OR</span>
-            <div className="flex-grow border-t border-gray-400"></div>
-          </div>
+        <LoginSignupHeading/>
           <form
             className="fex flex-col items-center"
             action=""
