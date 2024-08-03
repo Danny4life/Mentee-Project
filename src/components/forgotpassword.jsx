@@ -32,7 +32,7 @@ function Forgotpassword() {
                 <div className="bg-[#FFFFFF] border-2 m-auto h-[446px] w-[565px]  
                 border-black box-border flex;  p-[32px] flex-col shadow-2xl rounded-2xl justify-center items-center relative z-index-[10]">
                     <div className="text-blue-1 font-normal font-logo text-4xl mt-0 mr-[0.2px] mb-4 ml-0  
-                    inline-block break-words text-center flex items-center justify-center ">
+                     break-words text-center flex items-center justify-center ">
                         SWIFTSELECT
                     </div>
                       
